@@ -58,10 +58,18 @@ body header .logo-user .user img{
 main .contenuto{
   width: 100%;
   height: calc(100vh - 144px);
-  padding: 96px 170px 32px 170px ;
+  padding: 66px 170px 32px 170px ;
   overflow: auto;
   line-height: 25px;
 }
+
+main .contenuto h1{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+
 
 
 /* footer */

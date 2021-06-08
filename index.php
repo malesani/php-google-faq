@@ -94,15 +94,10 @@
 
   <main>
     <div class="contenuto">
-      <?php
-        foreach ($contenuti as $contenuto){
-          foreach($contenuto as $paragrafo){
-          }
-        }
-      ?>
-      
-
-      
+      <?php foreach ($contenuti as $contenuto):?>
+        <h1><?php echo $contenuto["titolo"]?></h1>
+        <span><?php echo $contenuto["testo"]?></span>
+      <?php endforeach; ?>
     </div>
   </main>
 
